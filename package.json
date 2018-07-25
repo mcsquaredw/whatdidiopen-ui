@@ -4,8 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-plugin-transform-jsx": "^2.0.0",
+    "babel-preset-env": "^1.7.0",
+    "hyperapp": "^1.2.8",
+    "hyperapp-fetch": "^1.0.1",
+    "parcel-bundler": "^1.9.7",
+    "picostyle": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-runtime": "^6.26.0"
+  }
 }
